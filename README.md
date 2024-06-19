@@ -1,4 +1,4 @@
-   
+<pre>   
      __   _          __        __  __       
     / /  (_)__  ____/ /  __ __/ /_/ /  __ _ 
    / _ \/ / _ \/ __/ _ \/ // / __/ _ \/  ' \
@@ -7,7 +7,7 @@
                                         
                 version 2.0
   Copyright (c) 2004-2024 Elwynor Technologies
-          
+</pre>          
 
 ## WHAT IS BIORHYTHM?
 
@@ -25,12 +25,13 @@
  luck.
 
 ## GRAPH SYMBOLS
-
+<pre>
  I ... Median Line        (0)
  P ... Physical Cycle     (23-day)
  S ... Sensitivity Cycle  (28-day)
  C ... Cognitive Cycle    (33-day)
- 
+</pre>
+
 ## INSTALLATION AND ACTIVATION
  
  Simply unzip the Biorhythm archive to your BBS server directory, add the 
