@@ -1,0 +1,96 @@
+
+LEVEL3 {Elwynor Technologies: Biorhythm}
+
+  This is the key required to use the Biorhythm
+  module.  
+  
+BIOKEY {NORMAL} S 15 Key required to use Biorhythm
+
+LEVEL6 {Elwynor Technologies: Biorhythm}
+
+BIOMNU {[0;1;37m
+BIORHYTHM CHARTING PROGRAM
+
+   [33mI[36m) Instructions
+   [33mC[36m) Chart your biorhythm
+   [33mX[36m) Exit
+
+Please select a function:[32m } T Biorhythm Message Text
+
+BIOINS {[0;1;37m[2J[0;37m
+This program gives your daily biorhythmic behavioral patterns over a thirty
+day period.  When asked for your birth date, enter the month day, and year.
+
+[1;37mExample: [33m06/06/1960[0;37m
+
+The output is best viewed in 80 columns.  If you have a capture buffer, open
+it to receive the data, then print it out later for easier analysis.[1;32m
+} T Biorhythm Message Text
+
+BRTHDY {[0;1;36m
+Please enter your date of birth in this format: [35mMM/DD/YYYY[36m
+-->[[[0;37;44mmm/dd/yyyy[10D[0;1;32m|]} T Biorhythm Message Text
+
+INVDAT {[0;1;31mInvalid Date![32m
+} T Biorhythm Message Text
+
+MOUTRG {[0;1;31mInvalid month![32m
+} T Biorhythm Message Text
+
+DOUTRG {[0;1;31mInvalid day![32m
+} T Biorhythm Message Text
+
+YOUTRG {[0;1;31m
+Sorry, a biorhythm can not be formulated for that year![32m
+} T Biorhythm Message Text
+
+PRPRBF {[0;1;37m
+The output is formatted for 80 columns.  It is advisable that you capture
+the output to a buffer and then print it out later for easier analysis.[1;37m
+
+Press [33mRETURN [37mwhen ready...[32m} T Biorhythm Message Text
+
+BIOHDR {[0;1;37m[2J[0;37m
+The median line ([1;33m0[0;37m) is your "[36mCritical[37m" point and is when you are most prone
+to accidents or bad luck.  During the "[36mHigh[37m" periods ([1;33m+[0;37m), you are the most
+energetic and will have better luck than usual.  "[36mLow[37m" periods ([1;33m-[0;37m) are times
+when you have no ambition, and will experience the worst luck.[1;37m
+
+GRAPH SYMBOLS:
+
+[33mI [34m...[36m Median Line        [32m(0)
+[33mP [34m...[36m Physical Cycle     [32m(23-day)
+[33mS [34m...[36m Sensitivity Cycle  [32m(28-day)
+[33mC [34m...[36m Cognitive Cycle    [32m(33-day)
+
+[37mYou were born on [33m%s %d, %d.[32m
+} T Biorhythm Message Text
+
+LNGAGO {[0;1;37mIt was a [35m%s, [37mand occured [33m%s [37mdays [0;32m(%s years) [1;37mago.[32m
+} T Biorhythm Message Text
+
+HDRPT2 {[0;1;37m
+
+       DATE              (-)                (0)               (+)[32m
+
+} T Biorhythm Message Text
+
+HPYNWY {                                  [34m***[33m HAPPY NEW YEAR [34m***[32m
+} T Biorhythm Message Text
+
+FRID13 {                            [34m***[31m BEWARE!!  FRIDAY THE 13TH [34m***[32m
+} T Biorhythm Message Text
+
+HPPYBD {                                [34m***[37m HAPPY [33m%d [37mBIRTHDAY! [34m***[32m
+} T Biorhythm Message Text
+
+LIVONL {[0;1;31m
+Sorry, you do not have access to the biorhythm charting program.[32m
+} T Biorhythm Message Text
+
+CNOTIL {[0;1;31m"[33m%c[31m" is not a valid menu selection.[32m
+} T Biorhythm Message Text
+
+JSTONE {[0;1;31mUnsupported command![32m
+} T Biorhythm Message Text
+

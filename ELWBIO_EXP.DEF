@@ -1,0 +1,6 @@
+; Filename: ELWBIO_EXP.DEF
+LIBRARY ELWBIO.DLL
+; *** Visual Studio 2022 EXPORT ALIASES ONLY ***
+; Biorhythm - Copyright (c) 2024 Elwynor Technologies
+EXPORTS
+	_init__elwbio=init__elwbio	@1
